@@ -1,0 +1,78 @@
+/* General styles */
+body {
+  background-color: #F4F3EE;
+  color: #524948;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Profile image */
+.profile-img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* Name and job title */
+.name {
+  color: #417B5A;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.job-title {
+  color: #417B5A;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* Sections */
+.about-me {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.about-me h3 {
+  color: #417B5A;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.about-me ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #2C666E;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #07393C;
+}
